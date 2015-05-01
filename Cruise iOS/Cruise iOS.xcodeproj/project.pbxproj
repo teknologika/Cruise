@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321BDEF51AF3470E0093EB2A /* CruiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32260A971ADB942800D68316 /* CruiseKit.framework */; };
+		321BDEF61AF3470E0093EB2A /* CruiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32260A971ADB942800D68316 /* CruiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		32260A781ADB93FA00D68316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32260A771ADB93FA00D68316 /* AppDelegate.swift */; };
+		32260A7A1ADB93FA00D68316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32260A791ADB93FA00D68316 /* ViewController.swift */; };
+		32260A7D1ADB93FA00D68316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32260A7B1ADB93FA00D68316 /* Main.storyboard */; };
+		32260A7F1ADB93FA00D68316 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32260A7E1ADB93FA00D68316 /* Images.xcassets */; };
+		32260A821ADB93FA00D68316 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32260A801ADB93FA00D68316 /* LaunchScreen.xib */; };
+		32260A8E1ADB93FA00D68316 /* Cruise_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32260A8D1ADB93FA00D68316 /* Cruise_iOSTests.swift */; };
+		32260A981ADB942800D68316 /* CruiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32260A971ADB942800D68316 /* CruiseKit.framework */; };
+		32260AA61ADB97FD00D68316 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32260AA51ADB97FD00D68316 /* InterfaceController.swift */; };
+		32260AA81ADB97FD00D68316 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32260AA71ADB97FD00D68316 /* NotificationController.swift */; };
+		32260AAA1ADB97FD00D68316 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32260AA91ADB97FD00D68316 /* GlanceController.swift */; };
+		32260AAC1ADB97FD00D68316 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32260AAB1ADB97FD00D68316 /* Images.xcassets */; };
+		32260AB01ADB97FD00D68316 /* Cruise iOS WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 32260AAF1ADB97FD00D68316 /* Cruise iOS WatchKit App.app */; };
+		32260AB81ADB97FD00D68316 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32260AB61ADB97FD00D68316 /* Interface.storyboard */; };
+		32260ABE1ADB97FD00D68316 /* Cruise iOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 32260AA01ADB97FD00D68316 /* Cruise iOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32260AD41ADC8B1B00D68316 /* WatchKitImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32260AD31ADC8B1B00D68316 /* WatchKitImages.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32260A881ADB93FA00D68316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32260A6A1ADB93FA00D68316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32260A711ADB93FA00D68316;
+			remoteInfo = "Cruise iOS";
+		};
+		32260AB11ADB97FD00D68316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32260A6A1ADB93FA00D68316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32260AAE1ADB97FD00D68316;
+			remoteInfo = "Cruise iOS WatchKit App";
+		};
+		32260ABB1ADB97FD00D68316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32260A6A1ADB93FA00D68316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32260A9F1ADB97FD00D68316;
+			remoteInfo = "Cruise iOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		321BDEF71AF3470F0093EB2A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				321BDEF61AF3470E0093EB2A /* CruiseKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32260ABD1ADB97FD00D68316 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				32260ABE1ADB97FD00D68316 /* Cruise iOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32260A721ADB93FA00D68316 /* Cruise iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cruise iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32260A761ADB93FA00D68316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32260A771ADB93FA00D68316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32260A791ADB93FA00D68316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32260A7C1ADB93FA00D68316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32260A7E1ADB93FA00D68316 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32260A811ADB93FA00D68316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32260A871ADB93FA00D68316 /* Cruise iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cruise iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32260A8C1ADB93FA00D68316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32260A8D1ADB93FA00D68316 /* Cruise_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cruise_iOSTests.swift; sourceTree = "<group>"; };
+		32260A971ADB942800D68316 /* CruiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CruiseKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Cruise-hjcxfyqpirflgterdgnuwqbmubit/Build/Products/Debug-iphoneos/CruiseKit.framework"; sourceTree = "<group>"; };
+		32260AA01ADB97FD00D68316 /* Cruise iOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cruise iOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32260AA31ADB97FD00D68316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32260AA41ADB97FD00D68316 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		32260AA51ADB97FD00D68316 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		32260AA71ADB97FD00D68316 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		32260AA91ADB97FD00D68316 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		32260AAB1ADB97FD00D68316 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32260AAF1ADB97FD00D68316 /* Cruise iOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cruise iOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32260AB51ADB97FD00D68316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32260AB71ADB97FD00D68316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		32260AD31ADC8B1B00D68316 /* WatchKitImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WatchKitImages.xcassets; sourceTree = "<group>"; };
+		32260ADB1ADCE57A00D68316 /* Cruise iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Cruise iOS.entitlements"; path = "Cruise iOS/Cruise iOS.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32260A6F1ADB93FA00D68316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321BDEF51AF3470E0093EB2A /* CruiseKit.framework in Frameworks */,
+				32260A981ADB942800D68316 /* CruiseKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32260A841ADB93FA00D68316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32260A9D1ADB97FD00D68316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32260A691ADB93FA00D68316 = {
+			isa = PBXGroup;
+			children = (
+				32260ADB1ADCE57A00D68316 /* Cruise iOS.entitlements */,
+				32260A971ADB942800D68316 /* CruiseKit.framework */,
+				32260A741ADB93FA00D68316 /* Cruise */,
+				32260A8A1ADB93FA00D68316 /* Cruise iOSTests */,
+				32260AA11ADB97FD00D68316 /* Cruise iOS WatchKit Extension */,
+				32260AB31ADB97FD00D68316 /* Cruise iOS WatchKit App */,
+				32260A731ADB93FA00D68316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32260A731ADB93FA00D68316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32260A721ADB93FA00D68316 /* Cruise iOS.app */,
+				32260A871ADB93FA00D68316 /* Cruise iOSTests.xctest */,
+				32260AA01ADB97FD00D68316 /* Cruise iOS WatchKit Extension.appex */,
+				32260AAF1ADB97FD00D68316 /* Cruise iOS WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32260A741ADB93FA00D68316 /* Cruise */ = {
+			isa = PBXGroup;
+			children = (
+				32260A7E1ADB93FA00D68316 /* Images.xcassets */,
+				32260A771ADB93FA00D68316 /* AppDelegate.swift */,
+				32260A791ADB93FA00D68316 /* ViewController.swift */,
+				32260A7B1ADB93FA00D68316 /* Main.storyboard */,
+				32260A801ADB93FA00D68316 /* LaunchScreen.xib */,
+				32260A751ADB93FA00D68316 /* Supporting Files */,
+			);
+			name = Cruise;
+			path = "Cruise iOS";
+			sourceTree = "<group>";
+		};
+		32260A751ADB93FA00D68316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32260A761ADB93FA00D68316 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32260A8A1ADB93FA00D68316 /* Cruise iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				32260A8D1ADB93FA00D68316 /* Cruise_iOSTests.swift */,
+				32260A8B1ADB93FA00D68316 /* Supporting Files */,
+			);
+			path = "Cruise iOSTests";
+			sourceTree = "<group>";
+		};
+		32260A8B1ADB93FA00D68316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32260A8C1ADB93FA00D68316 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32260AA11ADB97FD00D68316 /* Cruise iOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				32260AA51ADB97FD00D68316 /* InterfaceController.swift */,
+				32260AA71ADB97FD00D68316 /* NotificationController.swift */,
+				32260AA91ADB97FD00D68316 /* GlanceController.swift */,
+				32260AAB1ADB97FD00D68316 /* Images.xcassets */,
+				32260AA21ADB97FD00D68316 /* Supporting Files */,
+			);
+			path = "Cruise iOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		32260AA21ADB97FD00D68316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32260AA31ADB97FD00D68316 /* Info.plist */,
+				32260AA41ADB97FD00D68316 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32260AB31ADB97FD00D68316 /* Cruise iOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				32260AD31ADC8B1B00D68316 /* WatchKitImages.xcassets */,
+				32260AB61ADB97FD00D68316 /* Interface.storyboard */,
+				32260AB41ADB97FD00D68316 /* Supporting Files */,
+			);
+			path = "Cruise iOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		32260AB41ADB97FD00D68316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32260AB51ADB97FD00D68316 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32260A711ADB93FA00D68316 /* Cruise iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32260A911ADB93FA00D68316 /* Build configuration list for PBXNativeTarget "Cruise iOS" */;
+			buildPhases = (
+				32260A6E1ADB93FA00D68316 /* Sources */,
+				32260A6F1ADB93FA00D68316 /* Frameworks */,
+				32260A701ADB93FA00D68316 /* Resources */,
+				32260ABD1ADB97FD00D68316 /* Embed App Extensions */,
+				321BDEF71AF3470F0093EB2A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32260ABC1ADB97FD00D68316 /* PBXTargetDependency */,
+			);
+			name = "Cruise iOS";
+			productName = "Cruise iOS";
+			productReference = 32260A721ADB93FA00D68316 /* Cruise iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32260A861ADB93FA00D68316 /* Cruise iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32260A941ADB93FA00D68316 /* Build configuration list for PBXNativeTarget "Cruise iOSTests" */;
+			buildPhases = (
+				32260A831ADB93FA00D68316 /* Sources */,
+				32260A841ADB93FA00D68316 /* Frameworks */,
+				32260A851ADB93FA00D68316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32260A891ADB93FA00D68316 /* PBXTargetDependency */,
+			);
+			name = "Cruise iOSTests";
+			productName = "Cruise iOSTests";
+			productReference = 32260A871ADB93FA00D68316 /* Cruise iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32260A9F1ADB97FD00D68316 /* Cruise iOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32260AC21ADB97FD00D68316 /* Build configuration list for PBXNativeTarget "Cruise iOS WatchKit Extension" */;
+			buildPhases = (
+				32260A9C1ADB97FD00D68316 /* Sources */,
+				32260A9D1ADB97FD00D68316 /* Frameworks */,
+				32260A9E1ADB97FD00D68316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32260AB21ADB97FD00D68316 /* PBXTargetDependency */,
+			);
+			name = "Cruise iOS WatchKit Extension";
+			productName = "Cruise iOS WatchKit Extension";
+			productReference = 32260AA01ADB97FD00D68316 /* Cruise iOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		32260AAE1ADB97FD00D68316 /* Cruise iOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32260ABF1ADB97FD00D68316 /* Build configuration list for PBXNativeTarget "Cruise iOS WatchKit App" */;
+			buildPhases = (
+				32260AAD1ADB97FD00D68316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cruise iOS WatchKit App";
+			productName = "Cruise iOS WatchKit App";
+			productReference = 32260AAF1ADB97FD00D68316 /* Cruise iOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32260A6A1ADB93FA00D68316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ThoughtWorks;
+				TargetAttributes = {
+					32260A711ADB93FA00D68316 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = S7Y3AM8672;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					32260A861ADB93FA00D68316 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 32260A711ADB93FA00D68316;
+					};
+					32260A9F1ADB97FD00D68316 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					32260AAE1ADB97FD00D68316 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = S7Y3AM8672;
+					};
+				};
+			};
+			buildConfigurationList = 32260A6D1ADB93FA00D68316 /* Build configuration list for PBXProject "Cruise iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32260A691ADB93FA00D68316;
+			productRefGroup = 32260A731ADB93FA00D68316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32260A711ADB93FA00D68316 /* Cruise iOS */,
+				32260A861ADB93FA00D68316 /* Cruise iOSTests */,
+				32260A9F1ADB97FD00D68316 /* Cruise iOS WatchKit Extension */,
+				32260AAE1ADB97FD00D68316 /* Cruise iOS WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32260A701ADB93FA00D68316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32260A7D1ADB93FA00D68316 /* Main.storyboard in Resources */,
+				32260A821ADB93FA00D68316 /* LaunchScreen.xib in Resources */,
+				32260A7F1ADB93FA00D68316 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32260A851ADB93FA00D68316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32260A9E1ADB97FD00D68316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32260AB01ADB97FD00D68316 /* Cruise iOS WatchKit App.app in Resources */,
+				32260AAC1ADB97FD00D68316 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32260AAD1ADB97FD00D68316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32260AD41ADC8B1B00D68316 /* WatchKitImages.xcassets in Resources */,
+				32260AB81ADB97FD00D68316 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32260A6E1ADB93FA00D68316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32260A7A1ADB93FA00D68316 /* ViewController.swift in Sources */,
+				32260A781ADB93FA00D68316 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32260A831ADB93FA00D68316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32260A8E1ADB93FA00D68316 /* Cruise_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32260A9C1ADB97FD00D68316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32260AA81ADB97FD00D68316 /* NotificationController.swift in Sources */,
+				32260AA61ADB97FD00D68316 /* InterfaceController.swift in Sources */,
+				32260AAA1ADB97FD00D68316 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32260A891ADB93FA00D68316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32260A711ADB93FA00D68316 /* Cruise iOS */;
+			targetProxy = 32260A881ADB93FA00D68316 /* PBXContainerItemProxy */;
+		};
+		32260AB21ADB97FD00D68316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32260AAE1ADB97FD00D68316 /* Cruise iOS WatchKit App */;
+			targetProxy = 32260AB11ADB97FD00D68316 /* PBXContainerItemProxy */;
+		};
+		32260ABC1ADB97FD00D68316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32260A9F1ADB97FD00D68316 /* Cruise iOS WatchKit Extension */;
+			targetProxy = 32260ABB1ADB97FD00D68316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32260A7B1ADB93FA00D68316 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32260A7C1ADB93FA00D68316 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32260A801ADB93FA00D68316 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32260A811ADB93FA00D68316 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		32260AB61ADB97FD00D68316 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32260AB71ADB97FD00D68316 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32260A8F1ADB93FA00D68316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32260A901ADB93FA00D68316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32260A921ADB93FA00D68316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Cruise iOS/Cruise iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Cruise-hjcxfyqpirflgterdgnuwqbmubit/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "Cruise iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		32260A931ADB93FA00D68316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Cruise iOS/Cruise iOS.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Cruise-hjcxfyqpirflgterdgnuwqbmubit/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "Cruise iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		32260A951ADB93FA00D68316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cruise iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cruise iOS.app/Cruise iOS";
+			};
+			name = Debug;
+		};
+		32260A961ADB93FA00D68316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cruise iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cruise iOS.app/Cruise iOS";
+			};
+			name = Release;
+		};
+		32260AC01ADB97FD00D68316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Cruise_iOS_WatchKit_Extension;
+				INFOPLIST_FILE = "Cruise iOS WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		32260AC11ADB97FD00D68316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = Cruise_iOS_WatchKit_Extension;
+				INFOPLIST_FILE = "Cruise iOS WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		32260AC31ADB97FD00D68316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cruise iOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		32260AC41ADB97FD00D68316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cruise iOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32260A6D1ADB93FA00D68316 /* Build configuration list for PBXProject "Cruise iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32260A8F1ADB93FA00D68316 /* Debug */,
+				32260A901ADB93FA00D68316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32260A911ADB93FA00D68316 /* Build configuration list for PBXNativeTarget "Cruise iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32260A921ADB93FA00D68316 /* Debug */,
+				32260A931ADB93FA00D68316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32260A941ADB93FA00D68316 /* Build configuration list for PBXNativeTarget "Cruise iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32260A951ADB93FA00D68316 /* Debug */,
+				32260A961ADB93FA00D68316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32260ABF1ADB97FD00D68316 /* Build configuration list for PBXNativeTarget "Cruise iOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32260AC01ADB97FD00D68316 /* Debug */,
+				32260AC11ADB97FD00D68316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32260AC21ADB97FD00D68316 /* Build configuration list for PBXNativeTarget "Cruise iOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32260AC31ADB97FD00D68316 /* Debug */,
+				32260AC41ADB97FD00D68316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32260A6A1ADB93FA00D68316 /* Project object */;
+}
