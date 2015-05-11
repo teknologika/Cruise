@@ -24,6 +24,9 @@
 		32260AB81ADB97FD00D68316 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32260AB61ADB97FD00D68316 /* Interface.storyboard */; };
 		32260ABE1ADB97FD00D68316 /* Cruise iOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 32260AA01ADB97FD00D68316 /* Cruise iOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		32260AD41ADC8B1B00D68316 /* WatchKitImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32260AD31ADC8B1B00D68316 /* WatchKitImages.xcassets */; };
+		32BDB6991AFB312C001F57CF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32260AB61ADB97FD00D68316 /* Interface.storyboard */; };
+		32BDB69B1AFB312E001F57CF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32260AB61ADB97FD00D68316 /* Interface.storyboard */; };
+		32BDB69D1AFC494D001F57CF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BDB69C1AFC494D001F57CF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +102,7 @@
 		32260AB71ADB97FD00D68316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		32260AD31ADC8B1B00D68316 /* WatchKitImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WatchKitImages.xcassets; sourceTree = "<group>"; };
 		32260ADB1ADCE57A00D68316 /* Cruise iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Cruise iOS.entitlements"; path = "Cruise iOS/Cruise iOS.entitlements"; sourceTree = "<group>"; };
+		32BDB69C1AFC494D001F57CF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 			children = (
 				32260A7E1ADB93FA00D68316 /* Images.xcassets */,
 				32260A771ADB93FA00D68316 /* AppDelegate.swift */,
+				32BDB69C1AFC494D001F57CF /* DetailViewController.swift */,
 				32260A791ADB93FA00D68316 /* ViewController.swift */,
 				32260A7B1ADB93FA00D68316 /* Main.storyboard */,
 				32260A801ADB93FA00D68316 /* LaunchScreen.xib */,
@@ -361,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BDB69B1AFB312E001F57CF /* Interface.storyboard in Resources */,
 				32260A7D1ADB93FA00D68316 /* Main.storyboard in Resources */,
 				32260A821ADB93FA00D68316 /* LaunchScreen.xib in Resources */,
 				32260A7F1ADB93FA00D68316 /* Images.xcassets in Resources */,
@@ -379,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32260AB01ADB97FD00D68316 /* Cruise iOS WatchKit App.app in Resources */,
+				32BDB6991AFB312C001F57CF /* Interface.storyboard in Resources */,
 				32260AAC1ADB97FD00D68316 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BDB69D1AFC494D001F57CF /* DetailViewController.swift in Sources */,
 				32260A7A1ADB93FA00D68316 /* ViewController.swift in Sources */,
 				32260A781ADB93FA00D68316 /* AppDelegate.swift in Sources */,
 			);
